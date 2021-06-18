@@ -1,4 +1,4 @@
-update=05/06/2021 02:37:43
+update=18/06/2021 22:55:49
 version=1
 last_client=kicad
 [general]
@@ -28,7 +28,7 @@ PageLayoutDescrFile=
 LastNetListRead=ch340.net
 CopperLayerCount=2
 BoardThickness=1.6
-AllowMicroVias=0
+AllowMicroVias=1
 AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
@@ -39,6 +39,7 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2

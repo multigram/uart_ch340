@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 595)
+    (start_pass_no 96)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.9)
+      (against_preferred_direction_trace_costs 3.2)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.5)
+      (against_preferred_direction_trace_costs 1.4)
     )
   )
   (rule
@@ -44,7 +44,7 @@
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
-    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" default
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
   )
   (via_rule
     default "Via[0-1]_800:400_um"
@@ -65,7 +65,7 @@
   (class "kicad_default"
     GND VBUS "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(C2-Pad1)" /3.3V "Net-(D1-Pad2)" "Net-(D2-Pad2)"
     /TX "Net-(D3-Pad2)" /RX "Net-(J2-Pad1)" "Net-(R1-Pad2)" "Net-(R2-Pad2)"
-    (clearance_class default)
+    (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 250.0)
