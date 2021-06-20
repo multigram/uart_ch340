@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "uart ch340"
+Date "2021-06-20"
+Rev "V1.0.0"
+Comp "multigram"
 Comment1 ""
 Comment2 ""
 Comment3 ""
